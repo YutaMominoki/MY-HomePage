@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ギャラリー</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.7;
+      margin: 40px;
+      color: #222;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #34495e;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+    .gallery-item {
+      margin-bottom: 50px;
+    }
+    video {
+      display: block;
+      max-width: 100%;
+      width: 720px;
+      margin: 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #000;
+    }
+    .caption {
+      color: #555;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <hr>
+
+  <h1>ギャラリー</h1>
+
+  <p>
+    これまでに作成した曲面に関するアニメーションをまとめています。
+  </p>
+
+  <div class="gallery-item">
+    <h2>カテノイドの随伴極小曲面</h2>
+    <p>
+      ヘリコイドからカテノイドへの随伴極小曲面に関する連続的な変形です。
+    </p>
+    <video controls preload="metadata">
+      <source src="catenoidtohelicoid.mp4" type="video/mp4">
+      お使いのブラウザは video タグに対応していません。
+    </video>
+    <p class="caption">
+      使用ソフト：Blender
+    </p>
+  </div>
+
+  <div class="gallery-item">
+    <h2>エンネパーの随伴極小曲面</h2>
+    <p>
+      エンネパーの極小曲面の随伴極小曲面に関する連続的な変形です。
+    </p>
+    <video controls preload="metadata">
+      <source src="enneper.mp4" type="video/mp4">
+      お使いのブラウザは video タグに対応していません。
+    </video>
+    <p class="caption">
+      使用ソフト：Blender
+    </p>
+  </div>
+
+  
+  <hr>
+  <p><a href="index.html">← ホームに戻る</a></p>
+
+</body>
+</html>
